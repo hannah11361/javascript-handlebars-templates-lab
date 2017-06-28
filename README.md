@@ -100,7 +100,7 @@ the main template does.
 2. Create a template with an `id` of `recipe-template`. This
    template should contain the recipe `name` and an "Edit Recipe" link, and render
 the `recipeDetailsPartial` in step 3. Render this template with the recipe data when the user submits the form.
-3. Register a partial called `recipeDetailsPartial` for for the
+3. Register a partial called `recipeDetailsPartial` for the
    `description` and `ingredients` of the recipe. Create a template with an `id` of `recipe-details-partial` to hold
 the markup. Use the `each` helper to display the collection of
 `ingredients`.
@@ -123,3 +123,5 @@ will not function correctly.
 
 - [Handlebars](http://handlebarsjs.com)
 - [Handlebars partials](http://handlebarsjs.com/partials.html)
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/javascript-handlebars-templates-lab'>Handlebars Templates Lab</a> on Learn.co and start learning to code for free.</p>
